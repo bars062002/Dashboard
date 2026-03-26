@@ -1,0 +1,21 @@
+{
+  "name": "dashboard-promo-video",
+  "version": "1.0.0",
+  "description": "Dashboard tanıtım reklam filmi - Remotion ile hazırlanmıştır",
+  "scripts": {
+    "start": "remotion studio",
+    "build": "remotion render",
+    "render": "remotion render DashboardPromo out/promo.mp4"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.290",
+    "remotion": "4.0.290",
+    "react": "18.3.4",
+    "react-dom": "18.3.4"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.20",
+    "@types/react-dom": "18.3.5",
+    "typescript": "5.8.2"
+  }
+}
